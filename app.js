@@ -5,6 +5,6 @@ const userRouter = require('./routes/userRoutes');
 app.use(express.json());
 app.use('/api', userRouter);
 
-app.listen(3002, () => {
-    console.log('the project run onto port 3002 has started');
+app.listen(3000, () => {
+    console.log('Start');
 })
